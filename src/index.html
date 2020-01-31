@@ -1,18 +1,38 @@
-﻿<html lang="en">
+<html lang="en">
 
 <head>
-  <title>hello!</title>
-  <link rel="stylesheet" href="css/styles.css" />
-  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Lab 7</title>
 </head>
 
 <body>
-  <strong>Hello World!</strong>
-  <div id="social">
-    <a>lorem ipsum</a>
-    <a href=""></a>
+  <div class="app">
+    <div class="main-container">
+      <div class="container">
+        <div class="listing-block">
+          <p>Listing:</p>
+          <select size="10" class="listing-select">
+          </select>
+        </div>
+        <div class="store-block">
+          <p>Store:</p>
+          <select size="10" class="store-select">
+          </select>
+        </div>
+      </div>
+      <div class="navigation-panel">
+        <button type="button" id="add-to-listing-button">Add to listing</button>
+        <button type="button" id="add-button">Add to store</button>
+        <button type="button" id="delete-element-button">Delete selected item</button>
+        <button type="button" id="clear-all-button">Clear-all-button</button>
+        <button type="button" id="sort-store-button">Sort elements</button>
+      </div>
+    </div>
   </div>
-  <script src="js/main.js"></script>
+  <script src="js/index.js"></script>
 </body>
 
 </html>
