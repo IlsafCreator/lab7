@@ -1,4 +1,4 @@
-// import '../styles/style.css';
+import '../css/style.css';
 'use strict';
 window.onload = function () {
 
